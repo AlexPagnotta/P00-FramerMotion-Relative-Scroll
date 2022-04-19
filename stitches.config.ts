@@ -5,7 +5,9 @@ export const { styled, getCssText, globalCss } = createStitches({
     fonts: {
       inter: 'Inter, apple-system, sans-serif',
     },
-    colors: {},
+    colors: {
+      pink: '#FFACAC',
+    },
     media: {
       sm: '(min-width: 640px)',
       md: '(min-width: 768px)',
@@ -15,6 +17,7 @@ export const { styled, getCssText, globalCss } = createStitches({
       sm: '14px',
       md: '16px',
       lg: '20px',
+      xl: '32px',
     },
   },
 })
